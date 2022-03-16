@@ -15,5 +15,5 @@ last = bgp_summ[-1]
 
 asn = first.split()[-1]
 bgp_peer = last.split()[0]
-print(asn)
-print(bgp_peer)
+print("Local AS Number: {}".format(asn))
+print("BGP Peer IP Address: {}".format(bgp_peer))

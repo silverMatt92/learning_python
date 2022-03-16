@@ -31,7 +31,7 @@ mac_addr3 = mac3.split()[3]
 
 print()
 print("{:>20}{:>20}".format("IP ADDR", "MAC ADDRESS"))
-print("{:>20}{:>20}".format("-" * 20, "-" * 20))
+print("{:>20} {:>20}".format("-" * 20, "-" * 20))
 print("{:>20}{:>20}".format(ip_addr1, mac_addr1))
 print("{:>20}{:>20}".format(ip_addr2, mac_addr2))
 print("{:>20}{:>20}".format(ip_addr3, mac_addr3))
